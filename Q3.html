@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+p{
+  text-align:left;
+
+    margin-left:30px;
+}
+h1{ text-align:left;
+
+    margin-left:30px;
+}
+</style>
+</head>
+<body>
+
+<div class="container" >
+<div class="jumbotron text">
+<h1 >Bootstrap</h1>
+<p >Form Controls</p><br><br>
+</div>
+<div class="col-md-12">
+
+<div class="form-group has-warning has-feedback">
+ <label class="control-label" for="inputWarning">This is a label</label>   
+<input id="enter email" name="email" type="text"  class="form-control ">
+    <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>       
+                                          
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-group has-error has-feedback">
+<label class="control-label" for="inputError">This is a label</label>
+    <input id="enter email" name="email" type="text"  class="form-control ">
+    <span class="glyphicon glyphicon-remove form-control-feedback"></span>       
+    <span class="help-block">This is an example help text</span>                                        
+</div>
+</div>
+<div class="col-md-12">
+<div class="form-group has-success has-feedback">
+<label class="control-label" for="inputSuccess">This is a label</label>
+    <input id="enter email" name="email" type="text"  class="form-control ">
+    <span class="glyphicon glyphicon-ok form-control-feedback"></span>       
+    <span class="help-block" >This is an example help text</span>                                        
+</div>
+</div>
+</div>
+
+<div class="container" >
+<hr>
+<form class="form-inline" action="/action_page.php">
+  <div class="form-group">
+    <label for="email"></label>
+    <input class="form-control input-lg" placeholder="Enter email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd"></label>
+    <input class="form-control input-sm" placeholder="Password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Sign in</button>
+<hr>
+</div>
+
+<div class="container" >
+<div class="form-group row">
+  <div class="col-lg-2">
+    <label for="ex1"></label>
+    <input placeholder=".col-lg-2" class="form-control" id="ex1" type="text">
+  </div>
+  <div class="col-lg-3">
+    <label for="ex2"></label>
+    <input placeholder=".col-lg-3" class="form-control" id="ex2" type="text">
+  </div>
+  <div class="col-lg-7">
+    <label for="ex3"></label>
+    <input placeholder=".col-lg-7" class="form-control" id="ex3" type="text">
+  </div>
+</div>
+</div>
+</form>
+</body>
+</html>
